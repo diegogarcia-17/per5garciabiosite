@@ -39,6 +39,9 @@ a:active {
 #headerdiv {
 	background-color:#e4dfda; 
 	color:#011d4d;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
 } 
 #navdiv {
 	text-align: center; 
