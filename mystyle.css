@@ -6,7 +6,7 @@
 	font-size: 50px; 
 	text-align: center; 
 	padding: 25px;
-	background-image: url( "blue water.jpg");
+	background-image: url( "../images/blue water.jpg");
 	background-repeat: repeat; /* Or no-repeat, repeat-x, repeat-y based on your needs */
 	background-size: auto; /* Or cover, contain, or specific dimensions like 200px 200px */
 	background-position: center center; /* Adjust as needed (e.g., top left, 50% 50%) */
