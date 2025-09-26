@@ -1,0 +1,73 @@
+@charset "UTF-8";
+/* CSS Document */
+#banner {
+	background-color: black;
+	color: #f6f5f2;
+	font-size: 50px; 
+	text-align: center; 
+	padding: 25px;
+	background-image: url( "../images/blue water.jpg");
+	background-repeat: repeat; /* Or no-repeat, repeat-x, repeat-y based on your needs */
+	background-size: auto; /* Or cover, contain, or specific dimensions like 200px 200px */
+	background-position: center center; /* Adjust as needed (e.g., top left, 50% 50%) */
+  /* Add other styling for your banner, e.g., height, padding, text color */
+}
+a:link {
+  color: lightblue;
+	background-color: rgba 222,222,222,1.00;
+	padding: 15px 20px;
+	margin: 5px 10px;
+	border-radius: 10px;
+
+}
+
+/* visited link */
+a:visited {
+  color: lightblue;
+	
+}
+
+/* mouse over link */
+a:hover {
+  color: white;
+}
+
+/* selected link */
+a:active {
+  color: lightblue;
+}
+#headerdiv {
+	background-color:#e4dfda; 
+	color:#011d4d;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+} 
+#navdiv {
+	text-align: center; 
+	padding: 20px; 
+	font-size: 20px; 
+	background: #0037A2;
+
+}
+#grablediv {
+	padding: 15px;
+}
+#footer {
+	text-align: center; 
+	background-color: #0037A2; 
+	color: #f6f5f2; 
+	padding: 15px; 
+	font-size: 12px;
+}
+.threecolums {
+	width: 33.33%;
+	padding: 15px;
+	float: left;
+	background-color: #ddd;
+	margin: 5px;
+}
+.threecolums:hover{ 
+	box-shadow: 0px 0px 5px 5px #888888;
+	transform: translateY(-5px);
+}
